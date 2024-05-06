@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="utilities.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="contact-header">
+             <!-- header -->
+             <div class="navbar">
+                 <div class="container flex">
+                     <div class="logo">
+                         <a href="index.html"> <img src="images/logo.jpg" alt=""> </a>
+                         <p>Lick 'n' Sweet</p>
+                     </div>
+ 
+                     <nav>
+                         <div class="toggleMenu"></div>
+                         <ul class="nav">
+                             <li><a href="index.html" data-text="Home"> Home </a></li>
+                             <li><a href="school.html" data-text="School"> School </a></li>
+                             <li><a href="gallery.html" data-text="Gallery"> Gallery </a></li>
+                             <li><a href="contact.html" data-text="Contact"> Contact </a></li>
+                         </ul>
+                     </nav>
+                 </div>
+             </div>
+            </div>    
+         </header> 
+
+       <div class="contact">
+        <div class="info">
+            <div class="contactInfo" data-aos="fade-left">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Adress</h3>
+                        <p> Shando Bustop, 1 Adesina, Ijegun Rd, Isheri Osun, Lagos</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p><u>08063249085</u>, <u>09011446504</u></p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p> <a href="mailto:lickandsweet11@gmail.com"> lickandsweet11@gmail.com </a> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactForm" data-aos="fade-right">
+                <form name="contact" method="POST"  netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                     <p class="hidden">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p>
+                    <h2>Send Us a Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required/>
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="text" name="" required/>
+                        <span> Email </span>
+                    </div>
+
+                    <div class="inputBox">
+                         <textarea required></textarea>
+                         <span>Type your Message</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="submit" name="" value="send"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>     
+
+</div> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>  
+   AOS.init({
+       duration: 3000,
+       easing: 'ease-in-out',
+       once: true
+   });
+</script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,588 @@
+@media(max-width:1024px){
+    .about-us .container .grid .text,
+    .school-start .container .grid .text,
+    .school-end .container .grid .text{
+        width: 600px;
+    }
+
+    .trusted .container .flex .text{
+        width: 550px;
+    }
+
+    .about-us .container .flex .text{
+        width: 900px;
+        margin-left: 50px;
+    }
+
+    .about-us .container .flex .text h3{
+        text-align: left;
+    }
+
+    .about-us .container .flex .text p{
+        font-size: 1.5rem;
+    }
+
+    .product{
+        width: 960px;
+    }
+
+
+    /* contact */
+    .contact{
+        padding: 50px;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .info .contactInfo{
+        margin-bottom: 20px;
+    }
+
+    .info .contactInfo,
+    .contactForm{
+        width: 100%;
+    } 
+
+
+    .footer2 .flex div p{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media(max-width:911px){
+ /* header-nav */
+    .header-text{
+        margin-top: 50px;
+        width: 600px;
+    }
+
+    .header-text h3,
+    .header-text h3 span{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header-text p{
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+
+    .homepage-header,
+    .school-header
+    {
+        height: 350px;
+    }
+
+    .trusted{
+        margin: 50px 0px;
+    }
+
+    .trusted .container .grid .text{
+        width: 400px;
+    }
+
+    .trusted .container .grid .text h3{
+        font-size: 2rem;
+    }
+
+    .trusted .container .grid .image img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-us .container .flex{
+        margin: 50px 10px;
+    }
+
+    .about-us .container .flex .text{
+        width: 600px;
+        margin-left: -10px;
+    }
+
+    .about-us .container .flex .text h3{
+        font-size: 2rem;
+    }
+
+    .working .flex h3,
+    .request-top .flex h3{
+        font-size: 1.5rem;
+    } 
+
+    .catering-school-gallery .container .flex img{
+        height: 400px;
+    }
+    
+    .about-us .container .grid .text,
+    .about-us .container .grid .text,
+    .school-start .container .grid .text,
+    .school-end .container .grid .text{
+        width: 350px;
+    }
+
+    .about-us .container .grid .text p{
+        font-size: 1rem;
+    }
+
+    .catering-school .container{
+        margin: 0px 30px;
+    }
+
+    .catering-school .container div h3{
+        font-size: 1.5rem;
+    }
+
+    #pratical{
+        height: 300px;
+    }
+
+    .product{
+        width: 600px;
+        margin: 10px auto;
+        padding: 10px auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer1 .container .flex div p{
+        font-size: 1rem;
+    }
+
+    .footer1 .container .flex .icons .sci{
+        right: 5%;
+    }
+
+    .footer1 .container .flex .icons .sci li a img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer2 .flex div p{
+        font-size: 0.8rem;
+    }
+   
+}
+
+@media(max-width:760px){
+    header{
+        background-size: cover;
+    }
+    .navbar .flex{
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px;
+      }
+
+    .navbar{
+        height: 70px;
+        padding: 5px 15px;
+        margin: 0px;
+        justify-content: space-between;
+    }  
+    
+     .logo{
+         margin: 20px;
+     }
+
+     .logo a img{
+         margin-top: 15px;
+     }
+
+     .logo p{
+         margin-top: -15px;
+     }
+    
+    .navbar ul{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(10,12,50,1);
+        border-radius: 100% 0%;
+        box-shadow: 15px 0px 40px -10px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 15px 0px 40px -10px rgba(0,0,0,0.7);
+        -moz-box-shadow: 15px 0px 40px -10px rgba(0,0,0,0.7);
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        overflow: hidden;
+    }
+
+    header.sticky .navbar ul li,
+    .navbar ul li{
+        padding: 10px;
+    }
+    
+    header.sticky .navbar ul li a,
+    .navbar ul li a{
+        margin: 40px auto;
+        color: #ffffff;
+        padding: 10px;
+        font-size: 2.5em;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    
+    header.sticky .toggleMenu,
+    header.sticky .toggleMenu.active{
+        filter: invert(0);
+    }
+    
+    .toggleMenu{
+        position: relative;
+        width: 25px;
+        height: 25px;
+        margin-top: 20px;
+        background: url(images/menu.png) no-repeat center center;
+        background-size: 35px;
+        background-position: center;
+        z-index: 2;
+        cursor: pointer;
+        transition: 1s;
+        margin-bottom: 20px;
+    }
+    
+    .toggleMenu.active{
+        background: url(images/close-button.png) no-repeat center center;
+        background-position: center;
+        background-size: 20px;
+        filter: invert(1);
+        top: 0px;
+        right: 0px;
+    }
+
+    header.sticky .toggleMenu.active{
+        filter: invert(1);
+    }
+    
+    .navbar ul.active{
+        right: 0;
+        border-radius: 0px;
+    }
+
+    header.sticky .navbar{
+        height: 50px;
+        margin: 0px ;
+        padding: 0px 20px;
+        justify-content: space-between;
+}
+
+   header.sticky .logo a img{
+    margin-bottom: 10px;
+  }
+
+   header.sticky .logo p{
+    display: none;
+  }
+    
+    .working-hours .grid,
+    .request-gallery .grid, 
+    .about-us .container .grid,
+    .catering-school-gallery .container.grid-3,
+    .catering-school-gallery .container.grid,
+    .school-start .container .grid,
+    .school-end .container .grid,
+    .trusted .container .grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+     .header-text{
+        width: 300px;
+        margin-top: 100px;
+    }
+
+    .header-text h3,
+    .header-text h3 span{
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header-text .border{
+        margin: 0px auto 10px auto;
+    }
+
+
+    .header-text p{
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+
+    .about-us .container .flex .text{
+        margin-left: 10px;
+    }
+
+    .about-us .container .flex .text h3{
+        font-size: 1.5rem;
+    }
+
+    .about-us .container .flex .text p{
+        font-size: 1rem;
+    }
+
+    .catering-school-gallery .container .flex img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .work-top .container.flex,
+    .request-top .container.flex{
+        justify-content: center;
+    }
+
+    .working-hours .grid,
+    .request-gallery .grid, 
+    .about-us .container .grid,
+    .catering-school-gallery .container.grid-3,
+    .catering-school-gallery .container.grid,
+    .school-start .container .grid,
+    .school-end .container .grid,
+    .trusted .container .grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+
+    .main-courses .card ul li,
+    .other-courses .card ul li,
+    .work-hours .card ul li,
+    .school-hours .card ul li{
+        font-size: 20px;
+    }
+
+    .main-courses .card,
+    .other-courses .card,
+    .work-hours .card,
+    .school-hours .card{
+        width: 400px;
+    }
+
+    .working-hours .container .work-hours{
+        height: 550px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    
+    .working-hours .container .school-hours{
+        margin-bottom: 0px;
+    }
+
+    .request-gallery .container .main-courses{
+        height: 650px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .catering-start .container{
+        margin: 0px auto;
+    }
+
+    .gallery-nav .container nav ul li{
+        font-size: 1rem;
+    }
+
+    .request-gallery .grid div img{
+        align-items: center;
+    }
+
+    
+    .catering-school .container1.flex{
+        justify-content: center;
+    }
+
+   .footer1 .container .flex .icons .sci{
+        display:block;
+        right: 1%;
+    }
+
+    .footer1 .container .flex div p{
+        font-size: 0.9rem;
+    }
+
+    .footer2 .flex{
+        padding: 0px 20px;
+        justify-content: space-between;
+    }
+
+    .footer2 .flex div p{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    /* catering */
+    .catering-header{
+        height: 500px;
+    }
+
+    .catering-start .container .flex{
+        justify-content: center;
+    }
+
+    .product{
+        width: 450px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+
+    .product .itemBox{
+        width: 320px;
+        height: 320px;
+    }
+
+}
+
+@media(max-width:500px){
+    .trusted{
+        height: 800px;
+    }
+    
+    .about-us .container .grid .text,
+    .about-us .container .grid .text,
+    .school-start .container .grid .text,
+    .school-end .container .grid .text{
+        width: 295px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .school-start .container .grid .text p,
+    .school-end .container .grid .text p{
+        font-size: 1.2rem;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    
+    .school-start .container .grid .text h3,
+    .school-end .container .grid .text h3{
+        font-size: 2.4rem;
+    }
+
+    .trusted .container .grid .text{
+        width: 300px;
+    }
+
+    .trusted .container .grid .image{
+        height: 500px;
+    }
+
+    .catering-school-gallery .container .flex{
+        width: 400px;
+    }
+
+    .main-courses .card,
+    .other-courses .card,
+    .work-hours .card,
+    .school-hours .card{
+        width: 350px;
+    }
+
+    .contact{
+        padding: 50px;
+    }
+
+    .info .contactInfo
+    {
+        width: 350px;
+    }
+
+    .contactForm{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info .contactInfo .box .text p a,
+    .info .contactInfo .box .text p{
+        font-size: 1rem;
+    }
+
+    .info .contactInfo .box .icon{
+        max-width: 40px;
+        height: 60px;
+    }
+
+
+    .product{
+        width: 300px;
+    }
+
+}
+
+@media(max-width:360px){
+    .main-courses .card,
+    .other-courses .card,
+    .work-hours .card,
+    .school-hours .card{
+        width: 300px;
+    }
+    
+    .catering-school-gallery .container .flex img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .about-us .container .grid .text,
+    .about-us .container .grid .text,
+    .school-start .container .grid .text,
+    .school-end .container .grid .text{
+        width: 230px;
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+
+    .school-start .container .grid .image img,
+    .school-end .container .grid .image img{
+        width: 240px;
+    }
+
+    .working-hours .container .work-hours{
+        height: 800px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .trusted .container .grid .text{
+        width: 300px;
+    }
+
+    #pratical{
+        height: 400px;
+        margin-bottom: 40px;
+    }
+
+    
+    .working-hours .container .school-hours{
+        margin-bottom: 150px;
+        margin-top: 10px;
+    }
+
+    .request-gallery .container .main-courses{
+        height: 700px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .gallery-nav .container nav ul li{
+        font-size: 14px;
+    }
+
+    .info .contactInfo
+    {
+        width: 300px;
+    }
+
+}
+
+
