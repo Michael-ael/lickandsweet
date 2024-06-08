@@ -68,7 +68,7 @@ header{
 
 .homepage-header{
      display: flex;
-     background: rgba(10,12,50,0.5)  url(images/homepage\ background.jpg) no-repeat center center/cover;
+     background: rgba(10,12,50,0.5)  url(images/student.jpeg) no-repeat center center/cover;
      background-blend-mode: darken;
      background-position: center;
      height: 550px;
